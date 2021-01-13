@@ -1,0 +1,26 @@
+.container {
+    margin-top: 50px;
+    background-color: burlywood;
+    height: 200px;
+    position: relative;
+    width: 100%;
+}
+.child {
+    background-color: darkcyan;
+    height: 100px;
+    width: 100px;
+    /* position: relative; */
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    /* right: 100px; */
+    /* transform: translate(180px, 50px); */
+    
+
+}
+.child2 {
+    background-color: rgb(0, 139, 86);
+    height: 100px;
+    width: 100px;
+    position: fixed;
+}
